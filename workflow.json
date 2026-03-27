@@ -1,5 +1,26 @@
 {
-  "nodes": [],
+  "nodes": [
+    {
+      "id": "wf_node_1774608588834_0",
+      "type": "agentCall",
+      "position": {
+        "x": 466.5,
+        "y": 210.5
+      },
+      "data": {
+        "label": "conversation",
+        "agentId": "agent_1755381008288_647",
+        "methods": [],
+        "description": "A very simple Chat agent"
+      },
+      "measured": {
+        "width": 180,
+        "height": 70
+      },
+      "selected": true,
+      "dragging": false
+    }
+  ],
   "edges": [],
   "viewport": {
     "x": 0,
