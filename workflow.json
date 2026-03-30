@@ -37,7 +37,11 @@
           ]
         }
       },
-      "selected": true
+      "selected": true,
+      "measured": {
+        "width": 180,
+        "height": 97
+      }
     }
   ],
   "edges": [],
