@@ -1,6 +1,102 @@
 {
-  "nodes": [],
-  "edges": [],
+  "nodes": [
+    {
+      "id": "wf_trigger",
+      "type": "trigger",
+      "position": {
+        "x": 100,
+        "y": 250
+      },
+      "data": {
+        "label": "Trigger",
+        "status": "idle",
+        "ports": {
+          "outputs": [
+            {
+              "id": "trigger-out",
+              "label": "Output",
+              "type": "any"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wf_core",
+      "type": "agentCore",
+      "position": {
+        "x": 350,
+        "y": 200
+      },
+      "data": {
+        "label": "Basic Agent",
+        "status": "idle",
+        "isCore": true,
+        "config": {
+          "system_prompt": "You are {{AGENT_NAME}}. {{AGENT_DESCRIPTION}}",
+          "model": "llama-3.3-70b",
+          "temperature": 0.7,
+          "max_tokens": 4096
+        },
+        "methods": [
+          "chat"
+        ],
+        "ports": {
+          "inputs": [
+            {
+              "id": "message",
+              "label": "Message",
+              "type": "text"
+            }
+          ],
+          "outputs": [
+            {
+              "id": "response",
+              "label": "Response",
+              "type": "text"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wf_output",
+      "type": "output",
+      "position": {
+        "x": 650,
+        "y": 250
+      },
+      "data": {
+        "label": "Output",
+        "status": "idle",
+        "ports": {
+          "inputs": [
+            {
+              "id": "output-in",
+              "label": "Result",
+              "type": "any"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-trigger-core",
+      "source": "wf_trigger",
+      "target": "wf_core",
+      "sourceHandle": "trigger-out",
+      "targetHandle": "message"
+    },
+    {
+      "id": "edge-core-output",
+      "source": "wf_core",
+      "target": "wf_output",
+      "sourceHandle": "response",
+      "targetHandle": "output-in"
+    }
+  ],
   "viewport": {
     "x": 0,
     "y": 0,
