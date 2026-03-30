@@ -65,7 +65,8 @@
       "measured": {
         "width": 180,
         "height": 97
-      }
+      },
+      "selected": true
     },
     {
       "id": "wf_output",
