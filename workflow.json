@@ -37,12 +37,29 @@
           ]
         }
       },
-      "selected": true,
+      "selected": false,
       "measured": {
         "width": 180,
         "height": 97
       },
       "dragging": false
+    },
+    {
+      "id": "wf_node_1775120460162_0",
+      "type": "condition",
+      "position": {
+        "x": 160,
+        "y": 256
+      },
+      "data": {
+        "label": "Condition",
+        "description": "Branch based on condition"
+      },
+      "measured": {
+        "width": 180,
+        "height": 87
+      },
+      "selected": true
     }
   ],
   "edges": [],
