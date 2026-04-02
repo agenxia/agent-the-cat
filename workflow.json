@@ -63,19 +63,7 @@
       "dragging": false
     }
   ],
-  "edges": [
-    {
-      "type": "custom",
-      "source": "wf_node_1775120460162_0",
-      "sourceHandle": "cond-false",
-      "target": "wf_core",
-      "targetHandle": "message",
-      "data": {
-        "sourcePortType": "any"
-      },
-      "id": "xy-edge__wf_node_1775120460162_0cond-false-wf_coremessage"
-    }
-  ],
+  "edges": [],
   "viewport": {
     "x": 0,
     "y": 0,
