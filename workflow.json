@@ -37,19 +37,19 @@
           ]
         }
       },
-      "selected": true,
+      "selected": false,
       "measured": {
         "width": 180,
         "height": 101
       },
-      "dragging": true
+      "dragging": false
     },
     {
       "id": "wf_node_1775120460162_0",
       "type": "condition",
       "position": {
         "x": 0,
-        "y": -90
+        "y": 64
       },
       "data": {
         "label": "Condition",
@@ -59,8 +59,8 @@
         "width": 180,
         "height": 96
       },
-      "selected": false,
-      "dragging": false
+      "selected": true,
+      "dragging": true
     }
   ],
   "edges": [
@@ -74,6 +74,18 @@
         "sourcePortType": "any"
       },
       "id": "xy-edge__wf_node_1775120460162_0cond-false-wf_coremessage"
+    },
+    {
+      "type": "custom",
+      "source": "wf_core",
+      "sourceHandle": "response",
+      "target": "wf_node_1775120460162_0",
+      "targetHandle": "cond-in",
+      "data": {
+        "sourcePortType": "text",
+        "label": "Response"
+      },
+      "id": "xy-edge__wf_coreresponse-wf_node_1775120460162_0cond-in"
     }
   ],
   "viewport": {
