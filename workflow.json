@@ -66,8 +66,8 @@
       "id": "wf_node_1775134677878_1",
       "type": "widgetNode",
       "position": {
-        "x": -80,
-        "y": 48
+        "x": -128,
+        "y": -16
       },
       "data": {
         "label": "Chat",
@@ -99,7 +99,7 @@
         "height": 101
       },
       "selected": true,
-      "dragging": true
+      "dragging": false
     }
   ],
   "edges": [
