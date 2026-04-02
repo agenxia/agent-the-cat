@@ -4,8 +4,8 @@
       "id": "wf_core",
       "type": "agentCore",
       "position": {
-        "x": -160,
-        "y": -256
+        "x": -256,
+        "y": -336
       },
       "data": {
         "label": "Basic Agent",
@@ -48,8 +48,8 @@
       "id": "wf_node_1775120460162_0",
       "type": "condition",
       "position": {
-        "x": 128,
-        "y": -64
+        "x": 144,
+        "y": -144
       },
       "data": {
         "label": "Condition",
@@ -59,7 +59,7 @@
         "width": 180,
         "height": 96
       },
-      "selected": false,
+      "selected": true,
       "dragging": false
     },
     {
@@ -98,7 +98,7 @@
         "width": 185,
         "height": 101
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     }
   ],
