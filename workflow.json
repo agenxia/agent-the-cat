@@ -67,7 +67,7 @@
       "type": "widgetNode",
       "position": {
         "x": -80,
-        "y": 80
+        "y": 48
       },
       "data": {
         "label": "Chat",
@@ -97,7 +97,9 @@
       "measured": {
         "width": 185,
         "height": 101
-      }
+      },
+      "selected": true,
+      "dragging": true
     }
   ],
   "edges": [
