@@ -4,8 +4,8 @@
       "id": "wf_core",
       "type": "agentCore",
       "position": {
-        "x": 300,
-        "y": 200
+        "x": 256,
+        "y": 154
       },
       "data": {
         "label": "Basic Agent",
@@ -41,7 +41,8 @@
       "measured": {
         "width": 180,
         "height": 97
-      }
+      },
+      "dragging": true
     }
   ],
   "edges": [],
