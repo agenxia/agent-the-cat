@@ -61,6 +61,43 @@
       },
       "selected": false,
       "dragging": false
+    },
+    {
+      "id": "wf_node_1775134677878_1",
+      "type": "widgetNode",
+      "position": {
+        "x": -80,
+        "y": 80
+      },
+      "data": {
+        "label": "Chat",
+        "agentId": "widget-chat",
+        "methods": [
+          "message",
+          "get_messages"
+        ],
+        "ports": {
+          "inputs": [
+            {
+              "id": "message",
+              "label": "Message agent",
+              "type": "text"
+            }
+          ],
+          "outputs": [
+            {
+              "id": "prompt",
+              "label": "Message user",
+              "type": "text"
+            }
+          ]
+        },
+        "description": "Interface de chat avec prompt integre pour interagir avec l'agent"
+      },
+      "measured": {
+        "width": 185,
+        "height": 101
+      }
     }
   ],
   "edges": [
