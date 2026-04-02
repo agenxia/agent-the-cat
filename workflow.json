@@ -48,8 +48,8 @@
       "id": "wf_node_1775120460162_0",
       "type": "condition",
       "position": {
-        "x": 160,
-        "y": 256
+        "x": 128,
+        "y": 208
       },
       "data": {
         "label": "Condition",
@@ -59,7 +59,8 @@
         "width": 180,
         "height": 87
       },
-      "selected": true
+      "selected": true,
+      "dragging": false
     }
   ],
   "edges": [],
