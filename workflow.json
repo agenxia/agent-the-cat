@@ -4,7 +4,7 @@
       "id": "wf_core",
       "type": "agentCore",
       "position": {
-        "x": 240,
+        "x": -192,
         "y": -192
       },
       "data": {
@@ -48,8 +48,8 @@
       "id": "wf_node_1775120460162_0",
       "type": "condition",
       "position": {
-        "x": 0,
-        "y": -48
+        "x": 64,
+        "y": -32
       },
       "data": {
         "label": "Condition",
@@ -59,11 +59,24 @@
         "width": 180,
         "height": 96
       },
-      "selected": false,
+      "selected": true,
       "dragging": false
     }
   ],
-  "edges": [],
+  "edges": [
+    {
+      "type": "custom",
+      "source": "wf_core",
+      "sourceHandle": "response",
+      "target": "wf_node_1775120460162_0",
+      "targetHandle": "cond-in",
+      "data": {
+        "sourcePortType": "text",
+        "label": "Response"
+      },
+      "id": "xy-edge__wf_coreresponse-wf_node_1775120460162_0cond-in"
+    }
+  ],
   "viewport": {
     "x": 0,
     "y": 0,
