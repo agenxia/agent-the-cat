@@ -40,7 +40,7 @@
       "selected": false,
       "measured": {
         "width": 180,
-        "height": 97
+        "height": 101
       },
       "dragging": false
     },
@@ -57,13 +57,25 @@
       },
       "measured": {
         "width": 180,
-        "height": 87
+        "height": 96
       },
       "selected": false,
       "dragging": false
     }
   ],
-  "edges": [],
+  "edges": [
+    {
+      "type": "custom",
+      "source": "wf_node_1775120460162_0",
+      "sourceHandle": "cond-false",
+      "target": "wf_core",
+      "targetHandle": "message",
+      "data": {
+        "sourcePortType": "any"
+      },
+      "id": "xy-edge__wf_node_1775120460162_0cond-false-wf_coremessage"
+    }
+  ],
   "viewport": {
     "x": 0,
     "y": 0,
