@@ -5,7 +5,7 @@
       "type": "agentCore",
       "position": {
         "x": 240,
-        "y": -128
+        "y": -192
       },
       "data": {
         "label": "Basic Agent",
@@ -49,7 +49,7 @@
       "type": "condition",
       "position": {
         "x": 0,
-        "y": 64
+        "y": -48
       },
       "data": {
         "label": "Condition",
@@ -60,21 +60,10 @@
         "height": 96
       },
       "selected": true,
-      "dragging": true
+      "dragging": false
     }
   ],
   "edges": [
-    {
-      "type": "custom",
-      "source": "wf_node_1775120460162_0",
-      "sourceHandle": "cond-false",
-      "target": "wf_core",
-      "targetHandle": "message",
-      "data": {
-        "sourcePortType": "any"
-      },
-      "id": "xy-edge__wf_node_1775120460162_0cond-false-wf_coremessage"
-    },
     {
       "type": "custom",
       "source": "wf_core",
