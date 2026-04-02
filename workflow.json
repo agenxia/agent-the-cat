@@ -100,24 +100,6 @@
       },
       "selected": false,
       "dragging": false
-    },
-    {
-      "id": "wf_node_1775135232083_2",
-      "type": "trigger",
-      "position": {
-        "x": 64,
-        "y": -272
-      },
-      "data": {
-        "label": "Manual Trigger",
-        "description": "Start workflow manually"
-      },
-      "measured": {
-        "width": 180,
-        "height": 74
-      },
-      "selected": true,
-      "dragging": true
     }
   ],
   "edges": [
