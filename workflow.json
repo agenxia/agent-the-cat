@@ -59,6 +59,26 @@
         "width": 180,
         "height": 96
       },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "wf_node_1775134650176_0",
+      "type": "agentCall",
+      "position": {
+        "x": -128,
+        "y": 16
+      },
+      "data": {
+        "label": "conversation",
+        "agentId": "agent_1755381008288_647",
+        "methods": [],
+        "description": "A very simple Chat agent"
+      },
+      "measured": {
+        "width": 180,
+        "height": 74
+      },
       "selected": true,
       "dragging": false
     }
