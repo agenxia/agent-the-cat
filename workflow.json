@@ -4,8 +4,8 @@
       "id": "wf_core",
       "type": "agentCore",
       "position": {
-        "x": 192,
-        "y": 64
+        "x": 288,
+        "y": 48
       },
       "data": {
         "label": "Basic Agent",
@@ -48,8 +48,8 @@
       "id": "wf_node_1775120460162_0",
       "type": "condition",
       "position": {
-        "x": 128,
-        "y": 208
+        "x": 80,
+        "y": 96
       },
       "data": {
         "label": "Condition",
@@ -63,7 +63,19 @@
       "dragging": false
     }
   ],
-  "edges": [],
+  "edges": [
+    {
+      "type": "custom",
+      "source": "wf_node_1775120460162_0",
+      "sourceHandle": "cond-false",
+      "target": "wf_core",
+      "targetHandle": "message",
+      "data": {
+        "sourcePortType": "any"
+      },
+      "id": "xy-edge__wf_node_1775120460162_0cond-false-wf_coremessage"
+    }
+  ],
   "viewport": {
     "x": 0,
     "y": 0,
