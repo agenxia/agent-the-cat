@@ -59,24 +59,11 @@
         "width": 180,
         "height": 96
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     }
   ],
-  "edges": [
-    {
-      "type": "custom",
-      "source": "wf_core",
-      "sourceHandle": "response",
-      "target": "wf_node_1775120460162_0",
-      "targetHandle": "cond-in",
-      "data": {
-        "sourcePortType": "text",
-        "label": "Response"
-      },
-      "id": "xy-edge__wf_coreresponse-wf_node_1775120460162_0cond-in"
-    }
-  ],
+  "edges": [],
   "viewport": {
     "x": 0,
     "y": 0,
