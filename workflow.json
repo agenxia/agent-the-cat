@@ -102,6 +102,7 @@
       "dragging": false
     }
   ],
+  "entrypoint": "wf_core",
   "edges": [
     {
       "type": "custom",
