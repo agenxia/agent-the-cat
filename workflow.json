@@ -1,4 +1,5 @@
 {
+  "entrypoint": "wf_core",
   "nodes": [
     {
       "id": "wf_core",
@@ -9,7 +10,6 @@
       },
       "data": {
         "label": "Basic Agent",
-        "status": "idle",
         "isCore": true,
         "config": {
           "system_prompt": "You are {{AGENT_NAME}}. {{AGENT_DESCRIPTION}}",
@@ -36,8 +36,8 @@
       },
       "selected": true,
       "measured": {
-        "width": 180,
-        "height": 101
+        "width": 150,
+        "height": 40
       },
       "dragging": false
     },
@@ -53,8 +53,8 @@
         "description": "Branch based on condition"
       },
       "measured": {
-        "width": 180,
-        "height": 96
+        "width": 150,
+        "height": 40
       },
       "selected": false,
       "dragging": false
@@ -92,14 +92,13 @@
         "description": "Interface de chat avec prompt integre pour interagir avec l'agent"
       },
       "measured": {
-        "width": 185,
-        "height": 101
+        "width": 150,
+        "height": 40
       },
       "selected": false,
       "dragging": false
     }
   ],
-  "entrypoint": "wf_core",
   "edges": [
     {
       "type": "custom",
