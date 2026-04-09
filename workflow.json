@@ -34,7 +34,7 @@
           ]
         }
       },
-      "selected": true,
+      "selected": false,
       "measured": {
         "width": 150,
         "height": 40
@@ -45,8 +45,8 @@
       "id": "wf_node_1775120460162_0",
       "type": "condition",
       "position": {
-        "x": 340,
-        "y": -90
+        "x": 240,
+        "y": -112
       },
       "data": {
         "label": "Condition",
@@ -56,7 +56,7 @@
         "width": 150,
         "height": 40
       },
-      "selected": false,
+      "selected": true,
       "dragging": false
     },
     {
