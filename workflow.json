@@ -5,7 +5,7 @@
       "id": "wf_node_1775779743344_2",
       "type": "module",
       "position": {
-        "x": 240,
+        "x": 144,
         "y": 352
       },
       "data": {
@@ -44,7 +44,9 @@
       "measured": {
         "width": 259,
         "height": 97
-      }
+      },
+      "selected": true,
+      "dragging": true
     }
   ],
   "edges": [],
