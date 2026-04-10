@@ -1,10 +1,70 @@
 {
   "entrypoint": "wf_core",
-  "nodes": [],
+  "nodes": [
+    {
+      "id": "wf_node_1775779261076_0",
+      "type": "module",
+      "position": {
+        "x": 208,
+        "y": 288
+      },
+      "data": {
+        "label": "Notification Plateforme",
+        "moduleId": "output-notification",
+        "moduleIcon": "bell",
+        "moduleColor": "#f59e0b",
+        "ports": {
+          "inputs": [
+            {
+              "id": "title",
+              "label": "Titre",
+              "type": "text"
+            },
+            {
+              "id": "message",
+              "label": "Message",
+              "type": "text"
+            }
+          ],
+          "outputs": []
+        },
+        "config": {
+          "type": ""
+        },
+        "paramsSchema": {
+          "type": {
+            "type": "string",
+            "label": "Type de notification",
+            "default": "info",
+            "options": [
+              {
+                "label": "Information",
+                "value": "info"
+              },
+              {
+                "label": "Avertissement",
+                "value": "warning"
+              },
+              {
+                "label": "Erreur",
+                "value": "error"
+              }
+            ]
+          }
+        },
+        "description": "Envoie une notification persistante au dashboard Agenxia"
+      },
+      "measured": {
+        "width": 260,
+        "height": 119
+      }
+    }
+  ],
   "edges": [],
   "viewport": {
     "x": 0,
     "y": 0,
     "zoom": 1
-  }
+  },
+  "interfaceLayout": null
 }
