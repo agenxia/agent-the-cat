@@ -1,6 +1,52 @@
 {
   "entrypoint": "wf_core",
-  "nodes": [],
+  "nodes": [
+    {
+      "id": "wf_node_1775779546917_0",
+      "type": "module",
+      "position": {
+        "x": 144,
+        "y": 368
+      },
+      "data": {
+        "label": "Téléverser un fichier",
+        "moduleId": "file-upload",
+        "moduleIcon": "upload",
+        "moduleColor": "#facc15",
+        "ports": {
+          "inputs": [],
+          "outputs": [
+            {
+              "id": "upload",
+              "label": "Fichier (base64)",
+              "type": "json"
+            }
+          ]
+        },
+        "config": {
+          "accept": "",
+          "max_size_mb": ""
+        },
+        "paramsSchema": {
+          "accept": {
+            "type": "string",
+            "label": "Formats acceptés (ex: .pdf, image/*)",
+            "default": "*"
+          },
+          "max_size_mb": {
+            "type": "number",
+            "label": "Taille max (Mo)",
+            "default": 5
+          }
+        },
+        "description": "Permet de glisser-déposer un fichier et d'en extraire le contenu"
+      },
+      "measured": {
+        "width": 260,
+        "height": 97
+      }
+    }
+  ],
   "edges": [],
   "viewport": {
     "x": 0,
