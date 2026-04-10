@@ -57,7 +57,8 @@
       "measured": {
         "width": 260,
         "height": 119
-      }
+      },
+      "selected": false
     }
   ],
   "edges": [],
