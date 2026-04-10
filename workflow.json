@@ -1,6 +1,52 @@
 {
   "entrypoint": "wf_core",
-  "nodes": [],
+  "nodes": [
+    {
+      "id": "wf_node_1775779743344_2",
+      "type": "module",
+      "position": {
+        "x": 240,
+        "y": 352
+      },
+      "data": {
+        "label": "Formulaire Dynamique",
+        "moduleId": "dynamic-form",
+        "moduleIcon": "form-input",
+        "moduleColor": "#8b5cf6",
+        "ports": {
+          "inputs": [
+            {
+              "id": "schema",
+              "label": "JSON Schema",
+              "type": "json"
+            }
+          ],
+          "outputs": [
+            {
+              "id": "submission",
+              "label": "Données saisies",
+              "type": "json"
+            }
+          ]
+        },
+        "config": {
+          "submit_label": ""
+        },
+        "paramsSchema": {
+          "submit_label": {
+            "type": "string",
+            "label": "Texte du bouton",
+            "default": "Envoyer"
+          }
+        },
+        "description": "Génère un formulaire à partir d'un JSON Schema"
+      },
+      "measured": {
+        "width": 259,
+        "height": 97
+      }
+    }
+  ],
   "edges": [],
   "viewport": {
     "x": 0,
