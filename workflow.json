@@ -45,15 +45,15 @@
         "width": 260,
         "height": 97
       },
-      "selected": true,
+      "selected": false,
       "dragging": false
     },
     {
       "id": "wf_node_1775779581995_1",
       "type": "module",
       "position": {
-        "x": 224,
-        "y": 528
+        "x": 192,
+        "y": 464
       },
       "data": {
         "label": "Visionneuse Média",
@@ -104,7 +104,9 @@
       "measured": {
         "width": 201,
         "height": 119
-      }
+      },
+      "selected": true,
+      "dragging": false
     }
   ],
   "edges": [],
