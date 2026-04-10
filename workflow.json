@@ -1,6 +1,68 @@
 {
   "entrypoint": "wf_core",
-  "nodes": [],
+  "nodes": [
+    {
+      "id": "wf_node_1775810298512_3",
+      "type": "module",
+      "position": {
+        "x": 176,
+        "y": 320
+      },
+      "data": {
+        "label": "Bot Telegram",
+        "moduleId": "telegram",
+        "moduleIcon": "send",
+        "moduleColor": "#0088cc",
+        "ports": {
+          "inputs": [
+            {
+              "id": "chat_id",
+              "label": "Chat ID",
+              "type": "text"
+            },
+            {
+              "id": "text",
+              "label": "Message",
+              "type": "text"
+            }
+          ],
+          "outputs": [
+            {
+              "id": "success",
+              "label": "Succès",
+              "type": "boolean"
+            },
+            {
+              "id": "message_id",
+              "label": "ID Message",
+              "type": "number"
+            },
+            {
+              "id": "error",
+              "label": "Erreur",
+              "type": "text"
+            }
+          ]
+        },
+        "config": {
+          "bot_token": ""
+        },
+        "paramsSchema": {
+          "bot_token": {
+            "type": "string",
+            "label": "Bot Token",
+            "default": ""
+          }
+        },
+        "description": "Envoie des messages via l'API Telegram Bot"
+      },
+      "measured": {
+        "width": 236,
+        "height": 141
+      },
+      "selected": true
+    }
+  ],
   "edges": [],
   "viewport": {
     "x": 0,
