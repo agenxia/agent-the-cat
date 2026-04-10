@@ -5,8 +5,8 @@
       "id": "wf_node_1775779546917_0",
       "type": "module",
       "position": {
-        "x": 144,
-        "y": 368
+        "x": 112,
+        "y": 320
       },
       "data": {
         "label": "Téléverser un fichier",
@@ -44,6 +44,66 @@
       "measured": {
         "width": 260,
         "height": 97
+      },
+      "selected": true,
+      "dragging": false
+    },
+    {
+      "id": "wf_node_1775779581995_1",
+      "type": "module",
+      "position": {
+        "x": 224,
+        "y": 528
+      },
+      "data": {
+        "label": "Visionneuse Média",
+        "moduleId": "media-viewer",
+        "moduleIcon": "file-image",
+        "moduleColor": "#06b6d4",
+        "ports": {
+          "inputs": [
+            {
+              "id": "url",
+              "label": "URL du média",
+              "type": "text"
+            },
+            {
+              "id": "type",
+              "label": "Type (image|pdf|video)",
+              "type": "text"
+            }
+          ],
+          "outputs": []
+        },
+        "config": {
+          "default_type": ""
+        },
+        "paramsSchema": {
+          "default_type": {
+            "type": "string",
+            "label": "Type par défaut",
+            "default": "image",
+            "options": [
+              {
+                "label": "Image",
+                "value": "image"
+              },
+              {
+                "label": "PDF",
+                "value": "pdf"
+              },
+              {
+                "label": "Vidéo",
+                "value": "video"
+              }
+            ]
+          }
+        },
+        "description": "Affiche des images, PDF ou vidéos"
+      },
+      "measured": {
+        "width": 201,
+        "height": 119
       }
     }
   ],
